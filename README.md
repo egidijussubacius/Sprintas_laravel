@@ -24,6 +24,7 @@ DB_PORT=3306
 DB_DATABASE="enter_your_DB_name"
 DB_USERNAME=root
 DB_PASSWORD="enter_your_password"]
+
 9) Create "new Schema" with Mysql workbench ( must be same as in DB DATABASE = "enter_your_DB_name")
 10) Run              php artisan migrate
 11) Run             php artisan db:seed --class=UserSeeder
