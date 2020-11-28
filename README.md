@@ -10,12 +10,13 @@
 
 1) Clone repo to your PC.
 2) Open VsCode (without any folder) use terminal ( navigate to wanted folder (where composer.phar is located)
-for example cd c: , cd "program files" , cd "ampps/www"
-3) run php composer.phar create-project laravel/laravel <your desired folder name>
-4) put all files from cloned repo to new created folder     (<your desired folder name>)
+for example cd c: , cd "program files/ampps/www"
+3) run php composer.phar create-project laravel/laravel <your desired folder name> for example "test"
+4) from "test" folder copy vendor folder and put to cloned repo folder.
 5) Choice your created folder using VsCode 
-6) Rename .env.example ----> .env
-7) Configurate .env settings by you.
+6) Run  php ../composer.phar require laravel/ui (or php composer.phar require laravel/ui (it's depend on where the file is located)
+7) Rename .env.example ----> .env
+8) Configurate .env settings by you.
 
 [DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -24,9 +25,9 @@ DB_DATABASE="enter_your_DB_name"
 DB_USERNAME=root
 DB_PASSWORD="enter_your_password"]
 
-8) Run              php artisan migrate
-9) Run             php artisan db:seed --class=UserSeeder
-10) Run             php artisan serve
-11) LOGIN Email --> admin@admin.com
-12) LOGIN Pass  --> admin
-13) Goodluck for using ;)
+9) Run              php artisan migrate
+10) Run             php artisan db:seed --class=UserSeeder
+11) Run             php artisan serve
+12) LOGIN Email --> admin@admin.com
+13) LOGIN Pass  --> admin
+14) Goodluck for using ;)
