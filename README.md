@@ -24,10 +24,10 @@ DB_PORT=3306
 DB_DATABASE="enter_your_DB_name"
 DB_USERNAME=root
 DB_PASSWORD="enter_your_password"]
-
-9) Run              php artisan migrate
-10) Run             php artisan db:seed --class=UserSeeder
-11) Run             php artisan serve
-12) LOGIN Email --> admin@admin.com
-13) LOGIN Pass  --> admin
-14) Goodluck for using ;)
+9) Create "new Schema" with Mysql workbench ( must be same as in DB DATABASE = "enter_your_DB_name")
+10) Run              php artisan migrate
+11) Run             php artisan db:seed --class=UserSeeder
+12) Run             php artisan serve
+13) LOGIN Email --> admin@admin.com
+14) LOGIN Pass  --> admin
+15) Goodluck for using ;)
