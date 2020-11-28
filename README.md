@@ -15,7 +15,7 @@ for example cd c: , cd "program files/ampps/www"
 4) from "test" folder copy vendor folder and put to cloned repo folder.
 5) Choice your created folder using VsCode 
 6) Run  php ../composer.phar require laravel/ui (or php composer.phar require laravel/ui (it's depend on where the file is located)
-7) Rename .env.example ----> .env
+7) Rename .env.example ----> .env   or just use existing .env file
 8) Configurate .env settings by you.
 
 [DB_CONNECTION=mysql
