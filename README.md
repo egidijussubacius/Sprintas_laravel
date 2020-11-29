@@ -29,6 +29,7 @@ DB_PASSWORD="enter_your_password"]
 10) Run              php artisan migrate
 11) Run             php artisan db:seed --class=UserSeeder
 12) Run             php artisan serve
-13) LOGIN Email --> admin@admin.com
-14) LOGIN Pass  --> admin
-15) Goodluck for using ;)
+13) For first time it will ask to "Generate App Key", just press the button and let's roll :)
+14) LOGIN Email --> admin@admin.com
+15) LOGIN Pass  --> admin
+16) Goodluck for using ;)
